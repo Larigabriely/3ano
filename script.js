@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
-    // Verificando se os botões existem no DOM
     if (aumentaFonteBotao && diminuiFonteBotao) {
         let tamanhoAtualFonte = 1;
 
