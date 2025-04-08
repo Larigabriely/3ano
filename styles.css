@@ -154,9 +154,10 @@ h2 {
 
 }
 
-.opcoes-acessibilidades{
+.opcoes-acessibilidades {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 
 }
