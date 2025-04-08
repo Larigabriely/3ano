@@ -153,3 +153,10 @@ h2 {
     transform-origin: right center;
 
 }
+
+.opcoes-acessibilidades{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
