@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
+    const alternaContraste = document.getElementById('alterna-contraste')
+
     if (aumentaFonteBotao && diminuiFonteBotao) {
         let tamanhoAtualFonte = 1;
 
@@ -25,4 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('Botões não encontrados no DOM');
     }
+    alternaContraste.addEventListener ('click', function(){
+        document.body.classList.toggle('alto-contraste')
+    })
+
 });
